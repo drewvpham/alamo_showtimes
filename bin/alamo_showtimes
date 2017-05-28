@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require './lib/alamo_showtimes'
+
+AlamoShowtimes::CLI.new.call
