@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
-require './lib/alamo_showtimes'
+
+require_relative '../lib/alamo_showtimes'
 
 AlamoShowtimes::CLI.new.call
